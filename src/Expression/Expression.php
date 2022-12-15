@@ -123,7 +123,7 @@ abstract class Expression
      * @return array
      * @throws \InvalidArgumentException
      */
-    final private static function valuesFactory(array $values): array
+    private static function valuesFactory(array $values): array
     {
         if (0 === \count($values)) {
             return [];
