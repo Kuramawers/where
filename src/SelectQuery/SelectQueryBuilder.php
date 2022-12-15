@@ -147,7 +147,7 @@ final class SelectQueryBuilder
     }
 
     /**
-     * @param Expression[]|string[] ...$columns
+     * @param Expression[]|string[]|string ...$columns
      * @return SelectQueryBuilder
      */
     public function withAddedColumns(...$columns): self
