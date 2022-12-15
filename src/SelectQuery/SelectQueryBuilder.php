@@ -92,7 +92,7 @@ final class SelectQueryBuilder
     private $end = ';';
 
     /**
-     * @param Expression[]|string[] ...$columns
+     * @param Expression[]|string[]|string ...$columns
      * @return SelectQueryBuilder
      */
     public static function make(...$columns): self
