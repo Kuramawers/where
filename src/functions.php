@@ -52,7 +52,7 @@ function valuesOf(Expression ...$expressions): array
 }
 
 /**
- * @param Expression[]|string[] ...$columns
+ * @param Expression[]|string[]|string ...$columns
  * @return SelectQueryBuilder
  */
 function select(...$columns): SelectQueryBuilder
