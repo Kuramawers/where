@@ -1,5 +1,5 @@
 {
-  "name" : "bentools/where",
+  "name" : "sqltools/where",
   "description": "PHP7.1 Fluent, immutable SQL query builder. Connectionless, framework-agnostic, no dependency.",
   "keywords": ["query builder", "sql", "mysql", "database", "select", "where", "conditions", "insert", "update", "delete", "field", "case", "when", "then", "query", "builder"],
   "license": "MIT",
